@@ -1,45 +1,45 @@
 class colibri:
     # Constructor
-    def __init__(self, marca, model, numPortes, seients, tipus):
+    def __init__(self, nom, color, localitzacio, alimentPreferit, malaltia):
         # Atributs
-        self.marca = marca
-        self.model = model
-        self.numPortes = numPortes
-        self.seients = seients
-        self.tipus = tipus
+        self.color = color
+        self.malaltia = malaltia
+        self.alimentPreferit = alimentPreferit
+        self.localitzacio = localitzacio
+        self.nom = nom
 
     # Getters i Setters
-    # Marca
-    def setMarca(self,new_marca):
-        self.marca = new_marca
+    # color
+    def setcolor(self,new_color):
+        self.color = new_color
 
-    def getMarca(self):
-        return self.marca
+    def getcolor(self):
+        return self.color
     
-    # Model
-    def setModel(self, new_model):
-        self.model = new_model
+    # malaltia
+    def setmalaltia(self, new_malaltia):
+        self.malaltia = new_malaltia
 
-    def getModel(self):
-        return self.model
+    def getmalaltia(self):
+        return self.malaltia
     
     # Portes
-    def setNumPortes(self, new_numPortes):
-        self.numPortes = new_numPortes
+    def setalimentPreferit(self, new_alimentPreferit):
+        self.alimentPreferit = new_alimentPreferit
 
-    def getNumPortes(self):
-        return self.numPortes
+    def getalimentPreferit(self):
+        return self.alimentPreferit
     
-    # Seients
-    def setSeients(self, new_seients):
-        self.seients = new_seients
+    # localitzacio
+    def setlocalitzacio(self, new_localitzacio):
+        self.localitzacio = new_localitzacio
 
-    def getSeients(self):
-        return self.seients
+    def getlocalitzacio(self):
+        return self.localitzacio
     
-    # Tipus
-    def setTipus(self, new_tipus):
-        self.tipus = new_tipus
+    # nom
+    def setnom(self, new_nom):
+        self.nom = new_nom
 
-    def getTipus(self):
-        return self.tipus
+    def getnom(self):
+        return self.nom
