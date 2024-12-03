@@ -10,36 +10,36 @@ class colibri:
 
     # Getters i Setters
     # color
-    def setcolor(self,new_color):
+    def setColor(self,new_color):
         self.color = new_color
 
-    def getcolor(self):
+    def getColor(self):
         return self.color
     
     # malaltia
-    def setmalaltia(self, new_malaltia):
+    def setMalaltia(self, new_malaltia):
         self.malaltia = new_malaltia
 
-    def getmalaltia(self):
+    def getMalaltia(self):
         return self.malaltia
     
     # Portes
-    def setalimentPreferit(self, new_alimentPreferit):
+    def setAlimentPreferit(self, new_alimentPreferit):
         self.alimentPreferit = new_alimentPreferit
 
-    def getalimentPreferit(self):
+    def getAlimentPreferit(self):
         return self.alimentPreferit
     
     # localitzacio
-    def setlocalitzacio(self, new_localitzacio):
+    def setLocalitzacio(self, new_localitzacio):
         self.localitzacio = new_localitzacio
 
-    def getlocalitzacio(self):
+    def getLocalitzacio(self):
         return self.localitzacio
     
     # nom
-    def setnom(self, new_nom):
+    def setNom(self, new_nom):
         self.nom = new_nom
 
-    def getnom(self):
+    def getNom(self):
         return self.nom
